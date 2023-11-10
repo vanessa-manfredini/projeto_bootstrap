@@ -1,0 +1,94 @@
+
+:root{
+    --cor-lilas:#9353FF;
+    --cor-rosa:#FA75A2;
+    --cor-verde:#76E8E4;
+    --cor-gradiente: linear-gradient(180deg, #fff7ad, #ffa9f9);
+    --cor-dark:#363636;
+    --cor-ligth:#eeeeee;
+
+
+}
+.texto-menor{
+    font-size: 13px;
+}
+.divs-facilidades{
+    width: 325px;
+}
+
+.div-novidades{
+    width: 325px;
+}
+.botao__lilas{
+    background-color:var(--cor-lilas);
+   }
+.navbar__color {
+ background: -webkit-linear-gradient(180deg, #fff7ad, #ffa9f9);
+}
+.color__categorias{
+background:var(--cor-rosa);
+}
+.color__categorias:hover{
+    background:var(--cor-lilas);
+    }
+
+.color__categorias a{
+    color:black;
+    text-decoration: none;
+}
+.color__categorias p:hover{
+      background: var(--cor-gradiente); 
+        -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent; 
+      }
+ 
+.color__facilidades{
+    background-color:var(--cor-verde) ;
+}
+.color__icone{
+    color: var(--cor-lilas);
+}
+
+.color__rodapé{
+
+    background: -webkit-linear-gradient(180deg, #fff7ad, #ffa9f9);
+}
+
+.color__botao__rodape{
+    background-color:var(--cor-lilas);
+}
+.color_botao_buscar{
+    background-color:var(--cor-rosa);
+}
+.posicao{
+    top: 40%;
+}
+
+.imagens_banner{
+    opacity: 75%;
+}
+.navbar-toggler {
+   background-color:var(--cor-rosa);
+}
+.carousel-caption {
+    color:#363636;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-header a:active{
+    color: #9353FF;
+}
+
+@media (max-width: 768px){
+    .posicao{
+        top:60%
+    }
+}
+
+@media(min-width: 768px) {
+
+    .div-novidades {
+        width: 696px;
+    }
+
+}

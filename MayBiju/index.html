@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <link rel="shortcut icon" href="src/favicon.png" type="image/x-icon"> <title>May Bijus</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/style.css">
+    </head>
+
+
+<body>
+    <nav class="navbar navbar-expand-md navbar__color navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand m-0 p-0" href="#"><h1 class="m-0"><img class="d-block" src="src/logo_navbar.png" alt="Logo da loja May Bijus"></h1>
+            </a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Lojas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Novidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Promoções</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 rounded-0 " type="search" placeholder="Digite o produto"
+                        aria-label="Buscar">
+                    <button class="btn rounded-0 color_botao_buscar " type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+        </div>
+
+        <div class=" carousel-inner">
+
+            <div class="carousel-item active">
+                <div class="imagens_banner">
+                <img class=" w-100 img-fluid d-md-none " src="./src/assets/Mobile/Banner_mobile1.png" alt="foto de fundo com objetos de bijuterias com a logo marca">
+                <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="./src/assets/Tablet/Banner_Tablet1.png" alt="foto de fundo com objetos de bijuterias com a logo marca">
+               <img class="w-100 img-fluid  d-none d-xl-block " src="./src/assets/Desktop/Banner_Desktop1.png" alt="foto de fundo com objetos de bijuterias com a logo marca">
+            </div>
+           
+            
+            
+                </div>
+            <div class="carousel-item ">
+                <div class="imagens_banner">
+              <img class="w-100 img-fluid d-md-none" src="src/assets/Mobile/Banner_Mobile2.png" alt="foto de fundo com objetos de bijuterias com a logo marca">
+              <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="src/assets/Tablet/Banner_Tablet2.png" alt="foto de fundo com objetos de bijuterias com a logo marca">
+              <img class="w-100 img-fluid d-none d-xl-block" src="src/assets/Desktop/Banner_Desktop2.png" alt="foto de fundo com objetos de bijuterias com a logo marca">
+            </div>
+              <div class="carousel-caption ">
+                    <h5 class="fs-2" >Peças únicas </h5>
+                    <p class="fs-6" >Por ser peças confecionadas manualmente será única para você!</p>
+                </div>
+            </div>
+            
+            <div class="carousel-item ">
+                <div class="imagens_banner">
+                <img class=" w-100 img-fluid  d-md-none " src="./src/assets/Mobile/Banner_Mobile3.png" alt="Falta colocar imagem giovanna">
+                <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="./src/assets/Tablet/Banner_Tablet3.png" alt="Fatla a foto da giovanna">
+                <img class="w-100 img-fluid  d-none d-xl-block" src="./src/assets/Desktop/Banner_Desktop3.png" alt="Falta colocar a foto giovanna ">
+            </div>
+                <div class="carousel-caption " >
+                    <h5 class="fs-2" >Coloridas</h5>
+                    <p class="fs-6 ">Em cada bijuteria, uma explosão de cores que traduz a alegria em pequenos detalhes</p>
+                    
+                </div>
+            </div>
+        </div>
+       
+        <button class="carousel-control-prev" type="button" data-bs-target ="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target ="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    
+    </div>
+
+    <h2 class="text-center my-3 my-xl-5 ">Busque por categoria:</h2>
+    
+
+
+    <div class="container row mx-auto g-4">
+
+        <div class="col-6 col-md-4 col-xxl-2">
+
+            <div class="card rounded-0 border-0 ">
+                <img  class="d-md-none d-block" src="src/assets/Mobile/categorias/Categoria1.png" alt="camisa verde"></img>
+                <img class="d-none d-md-block d-xl-none" src="src/assets/Tablet/categorias/Categoria1.png" alt="camisa"></img>
+                <img class="d-none d-xl-block" src="src/assets/Desktop/categorias/Categoria1.png" alt="camisa"></img>
+                <div class="card-header color__categorias text-black">
+                     <a href="">
+                    <p class="text-center card-text">
+                       Pulseiras 
+                    </p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-6 col-md-4 col-xxl-2">
+
+            <div class="card rounded-0 border-0">
+                <img class="d-md-none d-block" src="src/assets/Mobile/categorias/Categoria2.png" alt="bolsas">
+                <img class="d-none d-md-block d-xl-none" src="src/assets/Tablet/categorias/Categoria2.png" alt="bolsas">
+                <img class="d-none d-xl-block" src="src/assets/Desktop/categorias/Categoria2.png" alt="bolsas">
+                <div class="card-header color__categorias text-black">
+                       <a href="">
+                    <p class="text-center  card-text ">
+                     Colares
+                    </p>
+                </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-xxl-2">
+
+            <div class="card rounded-0 border-0 ">
+                <img class="d-md-none d-block" src="src/assets/Mobile/categorias/Categoria3.png" alt="calçados">
+                <img class="d-none d-md-block d-xl-none  " src="src/assets/Tablet/categorias/Categoia3.png" alt="calçados">
+                <img class="d-none d-xl-block" src="src/assets/Desktop/categorias/Categoria3.png" alt="calçados">
+
+                <div class="card-header color__categorias text-black">
+                    <a href="">
+                    <p class="text-center card-text ">
+                       Tornozeleira
+                    </p>
+                </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-xxl-2">
+            <div class="card rounded-0 border-0">
+                <img class="d-md-none d-block" src="src/assets/Mobile/categorias/Categoria4.png" alt="calçaS">
+                <img class="d-none d-md-block d-xl-none  " src="src/assets/Tablet/categorias/Categoria4.png" alt="calças">
+                <img class="d-none d-xl-block" src="src/assets/Desktop/categorias/Categoria4.png" alt="calças">
+
+                <div class="card-header color__categorias text-black">
+                    <a href="">
+                    <p class="text-center card-text">
+                       Kits
+                    </p>
+                </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-xxl-2">
+            <div class="card rounded-0 border-0">
+                <img class="d-md-none d-block" src="src/assets/Mobile/categorias/Categoria5.png" alt="Casacos">
+                <img class="d-none d-md-block d-xl-none  " src="src/assets/Tablet/categorias/Categoria5.png" alt="Casacos">
+                <img class="d-none d-xl-block" src="src/assets/Desktop/categorias/Categoria5.png" alt="Casacos">
+
+                <div class="card-header color__categorias text-black">
+                    <a href="">
+                    <p class="text-center card-text">
+                      Friends 
+                    </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+       
+
+     <div class="col-6 col-md-4 col-xxl-2">
+            <div class="card rounded-0 border-0">
+                <img class="d-md-none d-block" src="src/assets/Mobile/categorias/Categoria6.png" alt="Oculos">
+                <img class="d-none d-md-block d-xl-none  " src="src/assets/Tablet/categorias/Categoria6.png" alt="Oculos">
+                <img class="d-none d-xl-block" src="src/assets/Desktop/categorias/Categoria6.png" alt="Oculos ">
+                
+                <div class=" card-header color__categorias text-black">
+                   <a href="#">
+                    <p class="text-center card-text">
+                     Personalizar
+                    </p>
+                   </a>
+                </div>
+            </div>
+        </div> 
+
+    </div>
+
+    <h2 class=" container text-center  my-3 my-xl-5">Produtos que estão bombando!</h2>
+
+    <div class="container row mx-auto ">
+
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+            <div class="card">
+                <img class="d-block d-md-none" src="src/assets/Mobile/produtos/Produt1.png" alt="bolsas">
+                <img class=" d-none d-md-block d-xl-none " src="src/assets/Tablet/produtos/Produto1.png" alt="bolsas">
+                <img class="d-xl-block d-none" src="src/assets/Desktop/produtos/Produtos1.png" alt="bolsas">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Pulseiras</h5>
+                    <p class="card-text">Cada peça é uma explosão de cores e estilo. Escolha a sua favorita e ilumine seu visual</p>
+                    <p>R$8,00</p>
+                    <a href="#" class="btn btn-info botao__lilas  rounded-0 border-0">Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+            <div class="card ">
+                <img class="d-block d-md-none" src="src/assets/Mobile/produtos/Produt2.png" alt="calcas">
+                <img class=" d-none d-md-block d-xl-none " src="src/assets/Tablet/produtos/Produto2.png" alt="calças">
+                <img class="d-xl-block d-none" src="src/assets/Desktop/produtos/Produtos2.png" alt="calças">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Personalize a sua biju</h5>
+                    <p class="card-text">Personalize e monte as suas bijuterias: crie o seu próprio estilo com cores e nomes.</p>
+                    <p>R$30,00</p>
+                    <a href="#" class="btn btn-info botao__lilas rounded-0  border-0">Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+            <div class="card">
+               <img class="d-block d-md-none" src="src/assets/Mobile/produtos/Produt3.png" alt="Camisas">
+               <img class="d-none d-md-block d-xl-none " src="src/assets/Tablet/produtos/Produto3.png" alt="Camisas">
+               <img class="d-none d-xl-block" src="src/assets/Desktop/produtos/Produtos3.png" alt="Camisas">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Moda no seu braço</h5>
+                    <p class="card-text">Descubra todas as  nossas bijuteria e adicione um toque de elegância ao seu visual. 
+                       </p>
+                    <p>R$10,00</p>
+                    <a href="#" class=" btn btn-info botao__lilas rounded-0 border-0">Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+            <div class="card">
+                <img class="d-block d-md-none" src="src/assets/Mobile/produtos/Produt4.png" alt="Jaquetas">
+               <img class="d-none d-md-block d-xl-none " src="src/assets/Tablet/produtos/Produto4.png" alt="Jaquetas">
+               <img class="d-none d-xl-block" src="src/assets/Desktop/produtos/Produtos4.png" alt="Jaquetas">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Bijuterias</h5>
+                    <p class="card-text">Pulseira personalizadas com o seu nome ou algo que queira levar com você sempre.</p>
+                    <p>R$5,00</p>
+                    <a href="#" class=" btn btn-info botao__lilas rounded-0 border-0" >Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+            <div class="card">
+               <img class="d-block d-md-none" src="src/assets/Mobile/produtos/Produt5.png" alt="Óculos">
+               <img class="d-none d-md-block d-xl-none" src="src/assets/Tablet/produtos/Produto5.png" alt="Óculos">
+               <img class="d-none d-xl-block" src="src/assets/Desktop/produtos/Produtos5.png" alt="Óculos">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Estilos</h5>
+                    <p class="card-text">Brilhe como suas bijuterias, mesmo nos dias nublados, e com todo estilo que é só seu.</p>
+                    <p>R$10,00</p>
+                    <a href="#" class=" btn btn-info botao__lilas rounded-0 border-0">Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+            <div class="card">
+                <img class="d-block d-md-none"  src="src/assets/Mobile/produtos/Produt6.png" alt="Tenis">
+                <img class="d-none d-md-block d-xl-none" src="src/assets/Tablet/produtos/Produto6.png" alt="Tenis">
+                <img class="d-none d-xl-block" src="src/assets/Desktop/produtos/Produtos6.png" alt="Tenis">
+
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Pra você</h5>
+                    <p class="card-text">Bijuterias são como sentimentos: pequenas, mas capazes de transformar tudo ao seu redor.</p>
+                    <p>R$8,00</p>
+                    <a href="#" class=" btn btn-info botao__lilas rounded-0 border-0">Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <section class="pb-4 color__facilidades">
+
+        <h2 class="text-center text-dark-emphasis">Conheça todas as nossas facilidades</h2>
+
+        <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 px-3">
+            <div class="divs-facilidades d-flex align-items-center">
+                <div><i class="bi bi-x-diamond fs-1 color__icone "></i></div>
+                <div class="color__textos">
+                    <div class="ms-3 mb-1">PAGUE PELO PIX</div>
+                    <div class="texto-menor ms-3">Ganhe 5% OFF em
+                        pagamentos via PIX</div>
+                </div>
+            </div>
+
+            <div class="divs-facilidades d-flex align-items-center">
+                <div><i class="bi bi-arrow-repeat fs-1 color__icone"></i></div>
+                <div class="color__textos">
+                    <div class="ms-3 mb-1">TROCA GRÁTIS</div>
+                    <div class="texto-menor ms-3">Fique livre para trocar em até 30 dias.</div>
+                </div>
+            </div>
+
+            <div class="divs-facilidades d-flex align-items-center">
+                <div><i class="bi bi-flower1 fs-1 color__icone"></i></div>
+                <div class="color__textos">
+                    <div class="ms-3 mb-1">SUSTENTABILIDADE</div>
+                    <div class="texto-menor ms-3">Moda responsável, que respeita o meio ambiente.</div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <form class=" container border border-secondary  my-3 my-xl-5 p-3 text-center div-novidades mx-auto ">
+        <h5>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h5>
+       
+        <div class="input-group my ">
+            <input type="email" class="form-control me-2 rounded-0 " placeholder="Digite seu e-mail"
+                aria-label="Digite seu e-mail" aria-describedby="button-addon2"  />
+            <button type="submit " class=" btn btn-info rounded-0 color__botao__rodape" id="button-addon2 ">Enviar</button>
+        </div>
+    </form>
+
+    <footer class="text-center color__rodapé">
+        <p class="py-3 m-0 p-0">2023 <i class="bi bi-c-circle "></i> Desenvolvido por Vanessa para Giovanna | Projeto fictício sem fins comerciais.</p>
+    </footer>
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
